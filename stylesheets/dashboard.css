@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;  
+}
+
+body {
+    background-color: #E4E4E4;
+}
+
+.menu {
+    background-color: #FFFFFE;
+    width: 15%;
+    height: 100%;
+    padding: 0px 0px 0px 0px;
+}
+
+nav {
+    padding: 10px 10px;
+    float: left;
+    background-color: #FFFFFE;
+}
+
+.logo {
+    height: 55px;
+    display: block;
+    line-height: 60px;
+    margin: auto;
+}
+
+ul{
+    padding: 20px 20px;
+}
+
+ul li{
+    list-style: none;
+    display: inline-block;
+    line-height: 30px;
+    
+}
+
+
+ul li a{
+    display: block;
+    font-size: 18px;
+    font-family: ariel;
+    color: #544848;
+}
+
+ul li a:hover {
+    color: #FF2828;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.header {
+    grid-column-start: 1;
+    grid-column-end: 7;
+    background-color: papayawhip;
+}
+
+.icons {
+    position: absolute;
+    right: 0px;
+    padding 10px 10px;
+}
+
+h1 {
+    padding: 10px 10px;
+    float: left;
+}
+
+.notificationicon {
+    height: 30px;
+    padding: 10px 5px;
+}
+
+.messageicon {
+    height: 30px;
+    padding: 10px 5px;
+}
+
+.usericon {
+    height: 30px;
+    padding: 0px 15px 10px 30px;
+}
+
+.search {
+    grid-column-start: 1;
+    grid-column-end: 7;
+    padding: 10px 10px;
+}
+
+input {
+    font-size: 18px;
+}
+
+.searchicon {
+    height: 15px;
+    padding: 10px 5px;
+    float: left;
+}
+
+.ticketstats {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.emails {
+    grid-column-start: 3;
+    grid-column-end: 7;
+    background-color: blueviolet;
+}
+
+.reports {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    background-color: red;
+}
+
+.advert {
+    grid-column-start: 3;
+    grid-column-end: 7;
+    background-color: tan;
+}
+
+.gameschedule {
+    grid-column-start: 1;
+    grid-column-end: 7;
+    background-color: yellow;
+}
+
+.staffmenu {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    background-color: indianred;
+}
+
+.usermenu {
+    grid-column-start: 4;
+    grid-column-end: 7;
+    background-color: olive;
+}
+
+.context {
+    height: 50px;
+}
+
+.tickettable {
+}
+
+table {
+    border: 1px solid black;
+}

@@ -1,0 +1,126 @@
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.ticketsignup {
+    height: 350px;
+    grid-column-start: 1;
+    grid-column-end: 7 ;
+    overflow: auto;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    background-image: url(../images/soccerfield.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.ticket-btn-form {
+    display: block;
+    text-align: center;
+    padding-top: 180px;
+}
+
+.ticket-btn {
+    color: black;
+    font-size: xx-large;
+    width: 200px;
+}
+
+
+.commentSection {
+    grid-column-start: 1;
+    grid-column-end: 7 ;
+    overflow: auto;
+    width: 100%;
+    background-color: rgb(245, 245, 245);
+    margin: 10px;
+    padding: 0;
+    margin: 0;
+}
+
+.comments {
+    margin-top: 10px;
+    margin-left: 20px;
+    display: block;
+    text-align: center;
+}
+
+.comment-box {
+    width: 800px;
+    padding: 20px;
+    margin-bottom: 4px;
+    background-color: white;
+    border-radius: 4px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    outline: 1px solid #33313186;
+    
+}
+
+.sp_h1 {
+    padding: 20px;
+    color: #022736;
+    font-weight: bold;
+
+}
+
+.sp_p {
+    margin-left: 70px;
+    color: black;
+    font-size: 18px;
+    padding-top: 20px;
+}
+
+.sp_h2 {
+    padding: 20px;
+    color: #022736;
+    font-weight: bold;
+    text-align: center;
+}
+
+input {
+    border-color: #33313186;
+    margin: 4px;
+    width: 500px;
+    font-size: 18px;
+}
+
+textarea {
+    border-color: #33313186;
+    margin: 4px;
+    width: 500px;
+    height: 250px;
+    font-size: 18px;
+    resize: none;
+}
+
+.commentSubmit {
+    width: 525px;
+    border-radius: 4px;
+    
+
+}
+
+.comment_name {
+    color: #FF2828;
+    font-size: 25px;
+    font-weight: bold;
+    padding-bottom: 1px;
+    margin-bottom: 0px;
+}
+
+.comment_date {
+    color: #524f4f;
+    font-size: 12px;
+    padding-top: 0px;
+    
+}
+
+.comment_message {
+    color: rgb(31, 29, 29);
+    font-size: 18px;
+}

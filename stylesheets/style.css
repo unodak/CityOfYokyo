@@ -1,0 +1,438 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body {
+    background-color: FFFFFE;
+}
+
+.wrapper {
+    margin: 0 auto;
+    /* width: 1000px; */
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.menu {
+    grid-column-start: 1;
+    grid-column-end: 7 ;
+    overflow: auto;
+    width: 100%;
+    background-color: #FFFFFE;
+    padding: 10px 10px 10px 10px;
+    position: fixed;
+    box-shadow: .5px 0.5px 10px .5px rgba(0,0,0,0.17);
+    border: none;
+
+}
+
+ul li {
+    list-style: none;
+    display: inline-block;
+    line-height: 70px;
+}
+
+ul li a {
+    display: block;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: ariel;
+    color: #544848;
+    padding: 0 15px;
+}
+
+ul li a:hover{
+    color: #FF2828;
+}
+
+form{
+    display: inline-block;
+}
+
+.logo {
+    float: left;
+    height: 55px;
+    display: block;
+    line-height: 60px;
+}
+
+.rightalign {
+    position: absolute;
+    right: 250px;
+    float: left;
+}
+
+button {
+    display: inline-block;
+    font-size: 18px;
+    font-family: ariel;
+    color: white;
+    background-color: #FF2828;
+    width: 100px;
+    border-radius: 5px;
+    border: none;
+    padding: 6px;
+}
+
+.buttons {
+    position: absolute;
+    right: 30px;
+    float: left;
+    line-height: 20px;
+    padding-right: 10px;
+}
+
+.loginbtn {
+    background-color: #022736;
+}
+
+.header {
+    grid-column-start: 1;
+    grid-column-end: 7 ;
+    height: 350px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    padding-top: 90px;
+    margin-bottom: 20px;
+}
+
+.banner {
+    width: 60%;
+    height: 60% ;
+    background-color: #022736;
+    color: #FFFFFE;
+    padding: 20px 30px;
+    opacity: 100%;
+    border-radius: 0 20px 20px 0px;
+}
+
+.banner h1 {
+    font-size: 60px;
+}
+
+.banner p {
+    font-size: 25px;
+}
+
+.banner a {
+    color: #FF2828;
+}
+
+.sidebar {
+    grid-column-start: 1;
+    grid-column-end: 2 ;
+    background-color: #FFFFFE; 
+    height: 250px; 
+    border-right: 2px solid #54484886;
+    margin-bottom: 20px;
+}
+
+.sidebar ul {
+        padding: 0px 20px;
+}
+
+.sidebar ul li {
+    display:block;
+    list-style: none;
+    float: left;
+    line-height: 50px;
+    width: 100%;
+}
+    
+.sidebar ul li a {
+    display: block;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: ariel;
+    color: #544848;
+    padding: 0 15px;
+    overflow: auto;
+}
+    
+.sidebar ul li a:hover {
+    color: #FF2828;   
+}
+
+.content {
+    grid-column-start: 2;
+    grid-column-end: 7 ; 
+    background-color: #FFFFFE; 
+    height: 300px;
+    padding: 0px 200px 25px 40px; 
+}
+
+.content h1 {
+    color: #FF2828; 
+}
+
+.content p {
+    color: #544848; 
+}
+
+
+.advert1 {
+    grid-column-start: 1;
+    grid-column-end: 7 ;
+    height: 450px; 
+    padding: 0px;
+    width: 99%;
+    margin: auto;
+    background-color: rgb(245, 245, 245);
+    overflow-x: scroll;
+    white-space: nowrap;
+}
+
+
+.ad_h2 {
+    text-align: center;
+    font-family: Arial;
+    padding: 30px;
+    color:#022736;
+    padding-top: 15px;
+}
+
+
+.picbox {
+    height: 280px;
+    width: 280px;
+    overflow: hidden;
+    margin: 5px 5px 0px;
+    display: inline-block;
+    flex: 0 0 auto;
+}
+
+.img_div {
+    margin: 0 auto;
+    height: 200px;
+    width: 200px;
+    background-size: cover; 
+    margin: 0 auto; 
+    margin-top: 5px;
+    border-radius: 4px;
+}
+
+.ad_h3 {
+    text-align: center;
+    color: #022736;   
+}
+
+.ad_p {
+    text-align: center;
+    color: rgb(19, 19, 19);
+}
+
+
+.gallery {
+    grid-column-start: 1;
+    grid-column-end: 7 ;
+    background-color: #FFFFFE;
+    overflow: auto;
+    padding: 25px 25px 0px 25px;
+}
+
+.link {
+    color: #022736;
+    position: absolute;
+    right: 65px;
+}
+
+.link a{
+    color: #022736;
+}
+
+.ball {
+    height: 200px;
+}
+
+.ball2 {
+    height: 200px;
+}
+
+.bike {
+    height: 200px;
+}
+
+.swim {
+    height: 200px;
+}
+
+.swim2 {
+    height: 200px;
+}
+
+.contactitle {
+    grid-column-start: 1;
+    grid-column-end: 7;
+    background-color: #E4E4E4; 
+    text-align: center;
+}
+
+.contactitle h1 {
+    padding: 0;
+}
+
+.contactlink{
+    font-size: xx-small;
+    padding: 0;
+}
+
+.contactheader {
+    grid-column-start: 1;
+    grid-column-end: 7; 
+    background-color: #E4E4E4;
+    text-align: center;
+}
+
+.contactusform {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    background-color: #E4E4E4;
+    padding: 0px 20px;
+    overflow: auto;
+    width: 100%;
+    padding: 10px 10px;
+}
+
+
+input {
+    width: 40%;
+    font-size: 20px;
+    border-radius: 5px;
+    border: 1px solid #544848;
+    padding: 10px 10px;
+}
+
+textarea {
+    width: 85%;
+    height: 200px;
+    font-size: 20px;
+    border-radius: 5px;
+    border: 1px solid #544848;
+    padding: 10px 10px;
+    font-family: Arial ;
+}
+
+.contactinfo {
+    grid-column-start: 4;
+    grid-column-end: 7;
+    background-color: #E4E4E4;
+    padding: 20px 20px;
+    
+}
+
+.locationcontact{
+    height: 20px;
+}
+
+.numbercontact{
+    height: 20px;
+}
+
+.faxcontact{
+    height: 20px;
+}
+
+.emailcontact{
+    height: 20px;
+}
+
+.backgroundcontact{
+    height: 175px;
+    padding-left: 40%;
+}
+
+.socials {
+    grid-column-start: 1;
+    grid-column-end: 4 ;
+    background-color: #022736;
+    padding: 20px 20px;
+}
+
+.icon-facebook {
+    height: 30px;
+    padding: 0px 2.5px;
+}
+
+.icon-instagram {
+    height: 30px;
+    padding: 0px 2.5px;
+}
+
+.icon-twitter {
+    height: 30px;
+    padding: 0px 2.5px;
+}
+
+.icon-youtube {
+    height: 30px;
+    padding: 0px 2.5px;
+}
+
+.footerlist1 {
+    grid-column-start: 4;
+    grid-column-end: 5 ;
+    background-color: #022736; 
+    color: #FFFFFE;
+    padding: 20px 20px;
+}
+
+.footerlist2 {
+    grid-column-start: 5;
+    grid-column-end: 6;
+    background-color: #022736;
+    color: #FFFFFE;
+    padding: 20px 20px;
+}
+
+.footerlist3 {
+    grid-column-start: 6;
+    grid-column-end: 7;
+    background-color: #022736;
+    color: #FFFFFE;
+    padding: 20px 20px;
+}
+
+.location {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    background-color: #022736; 
+    padding: 20px 0px 10px 20px;
+}
+
+.icon-location {
+    height: 30px;
+    opacity: 100%;
+}
+
+.disclaimer {
+    grid-column-start: 2;
+    grid-column-end: 7;
+    background-color: #022736; 
+}
+
+.disclaimer p {
+    color: black;
+    padding: 20px 0px 0px 20px;
+}
+
+h1 {
+    font: ariel;
+    font-weight: normal;
+}
+
+.cancel {
+    height: 20px;
+    display: block;
+    line-height: 60px;
+    margin: auto;
+}
+
+h2 {
+    color: #022736;
+}

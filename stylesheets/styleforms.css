@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #022736;
+    padding: 40px 40px;
+}
+
+.registrationblock {
+    background-color: #EEEEEF;
+    overflow: auto;
+    width: 400px;
+    margin: auto;
+    padding: 20px 50px;
+    border-radius: 30px;
+    opacity: 91%;
+}
+
+input {
+    width: 380px;
+    font-size: 20px;
+    border-radius: 5px;
+    border: 1px solid #5448486b;
+    padding: 5px 5px;
+}
+
+.logo {
+    height: 80px;
+    display: block;
+    line-height: 60px;
+    margin: auto;
+}
+
+select {
+    width: 390px;
+    font-size: 20px;
+    border-radius: 5px;
+    border: 1px solid #544848;
+    padding: 5px 5px;
+    color: #544848d7;  
+    margin-bottom: 10px;  
+}
+
+button {
+    width: 390px;
+    font-size: 20px;
+    border-radius: 5px;
+    border: 1px solid #544848;
+    padding: 5px 5px;
+    margin: auto;
+    color: white;
+    background-color: #FF2828;
+}
+
+a {
+    color: #544848;
+}
+
+a:hover {
+    color: #FF2828;
+}
+
+.registerimg {
+    height: 250px;
+    position: absolute;
+    right: 15px;
+    bottom: 30px;
+}
+
+p {
+    color: #544848;
+    text-align: center;
+    font-size: 18px;
+}
+
+.loginimg {
+    height: 300px;
+    position: absolute;
+    left: 100px;
+    bottom: 30px;
+}
+
+.radio {
+   height: 20px;
+   width: 20px;
+   float: left;
+}
+
+.logininfo {
+    float: left;
+    text-align: left;
+    padding-left: 10px;
+    font-size: 18px;
+}
+
+.logininfo2 {
+    opacity: 50%;
+    font-size: 18px;
+}
+
+.watchimg {
+    height: 250px;
+    position: absolute;
+    right: 40px;
+    bottom: 30px;
+}
+
+.cancel {
+        height: 20px;
+        display: block;
+        line-height: 60px;
+        right: 10px;
+        margin-top: 10px;
+        opacity: 65%;
+        text-align: right;
+}
+
+.error {
+    color: red;
+    text-align: center;
+}

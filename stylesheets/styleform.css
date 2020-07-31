@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color:#022736;
+    padding: 40px 40px;
+}
+
+.registrationblock {
+    background-color: #eeeef;
+    height: 580px;
+    width: 35%;
+    margin: auto;
+    padding: 10px 10px;
+}
+
+input {
+    width: 80%;
+    font-size: 20px;
+    border-radius: 5px;
+    border: 1px solid #544848;
+    padding: 5px 5px;
+}
+
+.logo {
+    height: 55px;
+    display: block;
+    line-height: 60px;
+    margin: auto;
+}
+
+select {
+    width: 80%;
+    font-size: 20px;
+    border-radius: 5px;
+    border: 1px solid #544848;
+    padding: 5px 5px;
+    margin: auto;
+}
+
+button {
+    width: 80%;
+    font-size: 20px;
+    border-radius: 5px;
+    border: 1px solid #544848;
+    padding: 5px 5px;
+    margin: auto;
+}
+
+.registerimg {
+    height: 175px;
+}

@@ -1,0 +1,70 @@
+
+
+.fixtureheader {
+    padding: 0px;
+    background-image: url('../images/swim2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width:100%;
+    margin: auto;
+    padding-top: 100px;
+    height: 250px;
+}
+
+.fixtures {
+    padding: 10px;
+    width:100%;
+    margin: auto;
+    height: 200px;
+    background-color: rgb(245, 245, 245);
+}
+
+.f_p {
+    margin-left: 70px;
+    color: black;
+    font-size: 18px;
+    padding-top: 20px;
+    }
+
+.f_h1 {
+    color: #022736;
+    font-weight: bold;
+}
+
+.gameschedule {
+    height: 500px;
+    text-align: center;
+    margin: auto;
+    color: slategrey;
+    display: block;
+    text-align: center;
+    padding-left: 250px;
+    font-size: 25px;
+    background-color: rgb(245, 245, 245);
+}
+
+td, th {
+    border: 1px solid #ddd;
+    padding-left: 0px;
+    margin-left: 0px;
+    padding-right: 0px;
+    margin-right: 0px;
+    width: 255px;
+}
+
+td {
+    text-align: left;
+}
+
+tr:hover(even){
+    background-color: #ddd;
+}
+
+th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #022736;
+    color: white;
+}

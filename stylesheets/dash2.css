@@ -1,0 +1,968 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none; 
+    
+}
+
+body {
+    background-color: #E4E4E4;
+}
+
+.menu {
+    padding: 0px 0px 0px 0px;
+    color: white;
+    margin: 0;
+}
+
+nav {
+    background-color: #022736;
+    padding: 10px 10px;
+    float: left;
+    color: white;
+    width: 200px;
+    text-align: left;
+    height: 1000px;
+}
+
+.logo {
+    height: 55px;
+    display: block;
+    line-height: 60px;
+    margin: auto;
+}
+
+.user_icon {
+    height: 100px;
+    border-radius: 4px;
+    display: block;
+    margin: auto;
+}
+
+.user_p {
+    color: white;
+    text-align: center;
+}
+
+ul{
+    padding: 20px 20px;
+}
+
+ul li{
+    list-style: none;
+    display: inline-block;
+    line-height: 35px;
+    
+}
+
+
+ul li a{
+    display: block;
+    font-size: 18px;
+    font-family: ariel;
+    color: rgb(228, 220, 220);
+}
+
+ul li a:hover {
+    color: #FF2828;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.header {
+    grid-column-start: 1;
+    grid-column-end: 7;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    right: 10px;
+    padding: 10px 10px;
+    padding-top: 10px;
+}
+
+.bell-icon-btn {
+    border: none;
+    background-color: transparent;   
+    color: #FF2828;
+    font-weight: bolder;
+   
+}
+
+.message-icon-btn {
+    border: none;
+    background-color: transparent;   
+    color: #FF2828;
+    font-weight: bolder;
+}
+
+.logout-icon-btn {
+    border: none;
+    background-color: transparent;   
+    color: black;
+    font-weight: bolder;
+    text-align: center;
+}
+
+
+h1 {
+    padding: 5px 10px;
+    float: left;
+}
+
+.notificationicon {
+    height: 30px;
+    
+}
+
+.messageicon {
+    height: 30px;   
+}
+
+.usericon {
+    height: 30px;
+}
+
+.search_input {
+    padding: 5px 5px;
+    margin: 5px;
+    font-size: 18px; 
+    border-radius: 4px;
+    width: 340px;
+}
+
+.search_btn {
+    height: 32px;
+    font-size: 15px;
+    width: 60px;
+    border-radius: 4px;
+}
+
+.td_dash {
+    border: 1px solid #ddd;
+    padding-left: 0px;
+    margin-left: 0px;
+    padding-right: 0px;
+    margin-right: 0px;
+    width: 255px;
+}
+
+.th_dash {
+    border: 1px solid #ddd;
+    padding-left: 0px;
+    margin-left: 0px;
+    padding-right: 0px;
+    margin-right: 0px;
+    width: 255px;
+}
+
+.td_dash {
+    text-align: left;
+}
+
+.th_dash {
+    padding-top: 5px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #022736;
+    color: white;
+}
+
+h1_tables {
+    color: #FF2828;
+    size: 30px;
+}
+
+.tr_dash:hover {
+    background-color: #ddd;
+}
+
+input {
+    font-size: 18px;
+}
+
+.searchicon {
+    height: 15px;
+    padding: 10px 5px;
+    float: left;
+}
+
+.ticketstats {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    background-color: #FFFFFE;
+    border-radius: 4px;
+    margin: 15px;
+    box-shadow: .5px 5px 10px .5px rgba(0,0,0,0.17);
+    width: 250px;
+    margin-left: 10px;
+}
+
+.userstats {
+    grid-column-start: 3;
+    grid-column-end: 5;
+    background-color: #FFFFFE;
+    border-radius: 4px;
+    margin: 15px;
+    box-shadow: .5px 5px 10px .5px rgba(0,0,0,0.17);
+    width: 250px;
+}
+
+.emails {
+    grid-column-start: 1;
+    grid-column-end: 7;
+    background-color: #FFFFFE;
+    border-radius: 10px;
+    margin: 15px;
+    box-shadow: .5px 5px 10px .5px rgba(0,0,0,0.17);
+    width: 92%;
+    margin-right: 20%;
+    font-size: 30px;
+    padding: 0px 30px 10px 30px;
+    color: #02C39A;
+    font-weight: bolder;
+
+}
+
+.advert {
+    grid-column-start: 1;
+    grid-column-end: 7;
+    background-color: #FFFFFE;
+    border-radius: 10px;
+    margin: 15px;
+    box-shadow: .5px 5px 10px .5px rgba(0,0,0,0.17);
+    width: 92%;
+    font-size: 30px;
+    padding: 0px 30px 10px 30px;
+    color: #02C39A;
+    font-weight: bolder;
+}
+
+.gameschedule {
+    grid-column-start: 1;
+    grid-column-end: 7;
+    background-color: #FFFFFE;
+    border-radius: 5px;
+    margin: 10px;
+    box-shadow: .5px 5px 10px .5px rgba(0,0,0,0.17);
+    width: 800px;
+    height: 250px;
+    overflow: auto;
+    padding: 0px 10px 10px 10px;
+    color: #FF2828;
+    size: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.staffmenu {
+    grid-column-start: 1;
+    grid-column-end: 7;
+    background-color: #FFFFFE;
+    border-radius: 5px;
+    margin: 10px;
+    box-shadow: .5px 5px 10px .5px rgba(0,0,0,0.17);
+    width: 800px;
+    height: 250px;
+    overflow: auto;
+    padding: 0px 10px 10px 10px;
+    color: #FF2828;
+    size: 30px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.usermenu {
+    grid-column-start: 1;
+    grid-column-end: 7;
+    background-color: #FFFFFE;
+    border-radius: 5px;
+    margin: 10px;
+    box-shadow: .5px 5px 10px .5px rgba(0,0,0,0.17);
+    width: 800px;
+    height: 250px;
+    overflow: auto;
+    padding: 0px 10px 10px 10px;
+    color: #FF2828;
+    size: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.context {
+    height: 50px;
+}
+
+.tickettable {
+   width: 100%;
+}
+
+.tickettable th {
+    width: 100%;
+    border-collapse: collapse;
+    padding: 0px 0px;
+    text-align: left;
+    color: #05668D;
+    padding-left: 10px;
+    padding-top: 10px;
+    font-size: 18px;
+}
+
+
+.tickettable td {
+    border: none;
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 40px;
+    padding: 0px 30px 10px 30px;
+    color: #02C39A;
+    font-weight: bolder;
+}
+
+.arrow {
+    height :20px;
+}
+
+.usertable th{
+ font: bold;
+ font-size: 18px;
+ text-align: left;
+ color: white;
+ padding: 5px;
+}
+
+.usertable td{
+font: normal;
+ font-size: 18px;
+ text-align: left;
+ color: black;
+ padding: 5px;
+
+}
+
+.gametable th {
+    font: bold;
+    font-size: 18px;
+    text-align: left;
+    color: white;
+    padding: 5px;
+}
+
+.gametable td {
+    font: normal;
+ font-size: 18px;
+ text-align: left;
+ color: black;
+ padding: 5px;
+}
+
+.stafftable th{
+    font: bold;
+    font-size: 18px;
+    text-align: left;
+    color: white;
+    padding: 5px;
+   }
+   
+   .stafftable td{
+   font: normal;
+    font-size: 18px;
+    text-align: left;
+    color: black;
+    padding: 5px;
+   
+   }
+
+.edit-form {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.edit-form button {
+    width: 40px;
+    height: 20px;
+    color: black;
+    background-color: white;
+    opacity: 0.7;
+}
+
+.edit-form button:hover {
+    opacity: 1;
+}
+
+.delete-form {
+    position: absolute;
+    top: 0px;
+    right: 60px;
+}
+
+.delete-form button {
+    width: 40px;
+    height: 20px;
+    color: black;
+    background-color: white;
+    opacity: 0.7;
+}
+
+.delete-form button:hover {
+    opacity: 1;
+}
+
+.contactitle {
+    grid-column-start: 1;
+    grid-column-end: 7;
+    background-color: #E4E4E4; 
+    text-align: center;
+}
+
+.contactitle h1 {
+    padding: 20px 20px;
+}
+
+.contactheader {
+    grid-column-start: 1;
+    grid-column-end: 7; 
+    background-color: #E4E4E4;
+    text-align: center;
+}
+
+.contactusform {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    background-color: #E4E4E4;
+    padding: 0px 20px;
+    overflow: auto;
+    width: 100%;
+    padding: 10px 10px;
+}
+
+
+input {
+    width: 40%;
+    font-size: 20px;
+    border-radius: 5px;
+    border: 1px solid #544848;
+    padding: 10px 10px;
+}
+
+textarea {
+    width: 85%;
+    height: 200px;
+    font-size: 20px;
+    border-radius: 5px;
+    border: 1px solid #544848;
+    padding: 10px 10px;
+    font-family: Arial ;
+}
+
+.contactinfo {
+    grid-column-start: 4;
+    grid-column-end: 7;
+    background-color: #E4E4E4;
+    padding: 20px 20px;
+    
+}
+
+.locationcontact{
+    height: 20px;
+}
+
+.numbercontact{
+    height: 20px;
+}
+
+.faxcontact{
+    height: 20px;
+}
+
+.emailcontact{
+    height: 20px;
+}
+
+.backgroundcontact{
+    height: 175px;
+    padding-left: 40%;
+}
+
+.staff_class {
+    grid-column-start: 1;
+    grid-column-end: 7;
+    background-color: #FFFFFE;
+    border-radius: 5px;
+    margin: 10px;
+    box-shadow: .5px 5px 10px .5px rgba(0,0,0,0.17);
+    width: 900px;
+    height: 900px;
+    overflow: auto;
+    padding: 0px 10px 10px 10px;
+    color: #FF2828;
+    size: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.staff_input {
+    border-color: #e4e4e4;
+    padding: 10px;
+    font-size: 15px;
+    margin: 5px;
+    border-radius: 4px;
+    width: 400px;
+}
+
+.staff_select {
+    border-color: #544848;
+    padding: 10px;
+    font-size: 15px;
+    margin: 5px;
+    border-radius: 4px;
+    width: 423px;
+}
+
+.staff_button {
+    display: inline-block;
+    font-size: 18px;
+    font-family: ariel;
+    color: white;
+    background-color: #FF2828;
+    width: 100px;
+    border-radius: 5px;
+    border: none;
+    padding: 6px;
+    margin: 5px;
+}
+
+.staff-box {
+    width: 500px;
+    padding: 10px;
+    margin-bottom: 4px;
+    margin-left: 5px;
+    background-color: #e4e4e4;
+    border-radius: 4px;
+    position: relative;
+    width: 403px;
+    border: 0.5px solid #544848;   
+}
+
+.staff-box p{
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 16px;
+    color: black;
+    font-weight: normal;
+}
+
+.staff_icon {
+    height: 80px;
+    width: 80px;
+    float: left;
+    border-radius: 4px;
+    margin: 5px;
+}
+
+.user_class {
+    grid-column-start: 1;
+    grid-column-end: 7;
+    background-color: #FFFFFE;
+    border-radius: 5px;
+    margin: 10px;
+    box-shadow: .5px 5px 10px .5px rgba(0,0,0,0.17);
+    width: 900px;
+    height: 900px;
+    overflow: auto;
+    padding: 0px 10px 10px 10px;
+    color: #FF2828;
+    size: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.user_input {
+    border-color: #e4e4e4;
+    padding: 10px;
+    font-size: 15px;
+    margin: 5px;
+    border-radius: 4px;
+    width: 400px;
+}
+
+.user_button {
+    display: inline-block;
+    font-size: 18px;
+    font-family: ariel;
+    color: white;
+    background-color: #FF2828;
+    width: 100px;
+    border-radius: 5px;
+    border: none;
+    padding: 6px;
+    margin: 5px;
+}
+
+.user-box {
+    width: 500px;
+    padding: 10px;
+    margin-bottom: 4px;
+    margin-left: 5px;
+    background-color: #e4e4e4;
+    border-radius: 4px;
+    position: relative;
+    width: 403px;
+    border: 0.5px solid #544848;   
+}
+
+.user-box p{
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 16px;
+    color: black;
+    font-weight: normal;
+}
+
+.user_icon2 {
+    height: 80px;
+    width: 80px;
+    float: left;
+    border-radius: 4px;
+    margin: 5px;
+}
+
+.game_class {
+    grid-column-start: 1;
+    grid-column-end: 7;
+    background-color: #FFFFFE;
+    border-radius: 5px;
+    margin: 10px;
+    box-shadow: .5px 5px 10px .5px rgba(0,0,0,0.17);
+    width: 900px;
+    height: 900px;
+    overflow: auto;
+    padding: 0px 10px 10px 10px;
+    color: #FF2828;
+    size: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.game_input {
+    border-color: #e4e4e4;
+    padding: 10px;
+    font-size: 15px;
+    margin: 5px;
+    border-radius: 4px;
+    width: 400px;
+}
+
+.game_select {
+    border-color: #544848;
+    padding: 10px;
+    font-size: 15px;
+    margin: 5px;
+    border-radius: 4px;
+    width: 423px;
+}
+
+.game_button {
+    display: inline-block;
+    font-size: 18px;
+    font-family: ariel;
+    color: white;
+    background-color: #FF2828;
+    width: 100px;
+    border-radius: 5px;
+    border: none;
+    padding: 6px;
+    margin: 5px;
+}
+
+.game-box {
+    width: 500px;
+    padding: 10px;
+    margin-bottom: 4px;
+    margin-left: 5px;
+    background-color: #e4e4e4;
+    border-radius: 4px;
+    position: relative;
+    width: 403px;
+    border: 0.5px solid #544848; 
+}
+
+.game-box p{
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 16px;
+    color: black;
+    font-weight: normal;
+}
+
+
+.gallery-upload {
+    grid-column-start: 1;
+    grid-column-end: 7;
+    background-color: #FFFFFE;
+    border-radius: 5px;
+    margin: 10px;
+    box-shadow: .5px 5px 10px .5px rgba(0,0,0,0.17);
+    width: 900px;
+    height: 350px;
+    overflow: auto;
+    padding: 0px 10px 10px 10px;
+    color: #FF2828;
+    size: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.ad_input {
+    border-color: #e4e4e4;
+    padding: 10px;
+    font-size: 15px;
+    margin: 5px;
+    border-radius: 4px;
+    width: 400px;
+}
+
+.ad_button {
+    display: inline-block;
+    font-size: 18px;
+    font-family: ariel;
+    color: white;
+    background-color: #FF2828;
+    width: 100px;
+    border-radius: 5px;
+    border: none;
+    padding: 6px;
+    margin-left: 10px;
+}
+
+.file-input {
+    color: black;
+    font-size: 15px;
+    width: 400px;
+    padding: 10px 10px;
+    height: 18px;
+    margin-top: 7px;
+    border: none;
+}
+
+.email_class {
+    grid-column-start: 1;
+    grid-column-end: 7;
+    background-color: #FFFFFE;
+    border-radius: 5px;
+    margin: 10px;
+    box-shadow: .5px 5px 10px .5px rgba(0,0,0,0.17);
+    width: 900px;
+    height: 440px;
+    overflow: auto;
+    padding: 0px 10px 10px 10px;
+    color: #FF2828;
+    size: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.messages_class {
+    grid-column-start: 1;
+    grid-column-end: 7;
+    background-color: #FFFFFE;
+    border-radius: 5px;
+    margin: 10px;
+    box-shadow: .5px 5px 10px .5px rgba(0,0,0,0.17);
+    width: 900px;
+    height: 440px;
+    overflow: auto;
+    padding: 0px 10px 10px 10px;
+    color: #FF2828;
+    size: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.email-box {
+    width: 500px;
+    padding: 10px;
+    margin-bottom: 4px;
+    margin-left: 5px;
+    background-color: #e4e4e4;
+    border-radius: 4px;
+    position: relative;
+    width: 403px;
+    border: 0.5px solid #544848; 
+}
+
+.comments-box {
+    width: 500px;
+    padding: 10px;
+    margin-bottom: 4px;
+    margin-left: 5px;
+    background-color: #e4e4e4;
+    border-radius: 4px;
+    position: relative;
+    width: 403px;
+    border: 0.5px solid #544848; 
+}
+
+
+.name_p {
+    font-size: 20px;
+    font-weight: bold;
+    color: #022736;
+}
+
+.email_p {
+    color: #022736;
+}
+
+.message_p {
+    color: rgb(19, 17, 17);
+}
+
+.c_name_p {
+    font-size: 20px;
+    font-weight: bold;
+    color: #022736;
+}
+
+.commentDate_p {
+    color:rgb(19, 17, 17);
+    font-size: 12px;
+}
+
+.comment_p {
+    color: rgb(19, 17, 17);
+}
+
+.search_class {
+    grid-column-start: 1;
+    grid-column-end: 7;
+    background-color: #FFFFFE;
+    border-radius: 5px;
+    margin: 10px;
+    box-shadow: .5px 5px 10px .5px rgba(0,0,0,0.17);
+    width: 900px;
+    height: 440px;
+    overflow: auto;
+    padding: 0px 10px 10px 10px;
+    color: #FF2828;
+    size: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.search-box {
+    width: 500px;
+    padding: 10px;
+    margin-bottom: 4px;
+    margin-left: 5px;
+    background-color: #e4e4e4;
+    border-radius: 4px;
+    position: relative;
+    width: 403px;
+    border: 0.5px solid #544848; 
+}
+
+
+.search-box p{
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 16px;
+    color: black;
+    font-weight: normal;
+    height: 80px;
+}
+
+.userdash_class {
+    grid-column-start: 1;
+    grid-column-end: 7;
+    background-color: #FFFFFE;
+    border-radius: 5px;
+    margin: 10px;
+    box-shadow: .5px 5px 10px .5px rgba(0,0,0,0.17);
+    width: 900px;
+    height: 440px;
+    overflow: auto;
+    padding: 0px 10px 10px 10px;
+    color: #FF2828;
+    size: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.welcome_dash {
+    color: black;
+    margin-left: 10px;
+}
+
+.sportReg-btn {
+    display: inline-block;
+    font-size: 18px;
+    font-family: ariel;
+    color: white;
+    background-color: #FF2828;
+    width: 200px;
+    border-radius: 5px;
+    border: none;
+    padding: 6px;
+    margin-left: 10px;
+}
+
+.sportReg-btn-form {
+    display: block;
+    text-align: center;
+}
+
+.myProfile_class {
+    grid-column-start: 1;
+    grid-column-end: 7;
+    background-color: #FFFFFE;
+    border-radius: 5px;
+    margin: 10px;
+    box-shadow: .5px 5px 10px .5px rgba(0,0,0,0.17);
+    width: 900px;
+    height: 300px;
+    overflow: auto;
+    padding: 0px 10px 10px 10px;
+    color: #FF2828;
+    size: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.myGames_class {
+    grid-column-start: 1;
+    grid-column-end: 7;
+    background-color: #FFFFFE;
+    border-radius: 5px;
+    margin: 10px;
+    box-shadow: .5px 5px 10px .5px rgba(0,0,0,0.17);
+    width: 900px;
+    height: 500px;
+    overflow: auto;
+    padding: 0px 10px 10px 10px;
+    color: #FF2828;
+    size: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.editProfile-btn {
+    display: inline-block;
+    font-size: 18px;
+    font-family: ariel;
+    color: white;
+    background-color: #FF2828;
+    width: 200px;
+    border-radius: 5px;
+    border: none;
+    padding: 6px;
+    margin-left: 10px;
+    margin-left: 4px;
+}
